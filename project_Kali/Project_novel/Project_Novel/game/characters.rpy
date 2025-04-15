@@ -1,0 +1,10 @@
+define e = Character("Eel", color = "FFFFFF")
+define p = Character("[player_name]", color = "#ff0000")
+define m1 = Character('???', color = "#ff0000")
+
+image eel_meet = im.MatrixColor("Eel.png", im.matrix.brightness(-0.5))
+image eel_dark = im.MatrixColor("Eel1.png", im.matrix.brightness(-0.4))
+image eel_happy = im.MatrixColor("Eelhappy.png", im.matrix.brightness(-0.2))
+image eel_curios = im.MatrixColor("Eelcurious.png", im.matrix.brightness(-0.2))
+image shadow = ("Shadow.png")
+image gun = ("items/gun.png")
